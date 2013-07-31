@@ -1,5 +1,6 @@
 /*jshint node: true */
 /*globals LINTER_PATH load */
+global.window = {}
 
 var JSHINT = require("./jshint").JSHINT;
 
